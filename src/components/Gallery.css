@@ -1,0 +1,29 @@
+/* Gallery.css */
+.gallery {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
