@@ -1,4 +1,3 @@
-/* Footer.css */
 .footer {
   background-color: #1a1a1a;
   color: #fff;
@@ -23,6 +22,7 @@
   margin-bottom: 15px;
 }
 
+/* Quick Links */
 .footer-links ul {
   list-style: none;
   padding: 0;
@@ -41,6 +41,17 @@
   text-decoration: underline;
 }
 
+/* Contact links */
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer bottom */
 .footer-bottom {
   text-align: center;
   margin-top: 30px;
