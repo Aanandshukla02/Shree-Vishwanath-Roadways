@@ -11,8 +11,8 @@ function WhyChooseUs() {
         <li><b>✔️ Nationwide Network:</b> Seamless connectivity across India.</li>
         <li><b>✔️ Modern Fleet:</b> Well-maintained vehicles ensuring safety and efficiency.</li>
         <li><b>✔️ On-Time Delivery:</b> Commitment to timely and reliable shipments.</li>
-        <li><b>✔️ Customized Solutions:</b> Tailored logistics plans for client needs.</li>
-        <li><b>✔️ Cost-Effective:</b> Transparent pricing with maximum value for money.</li>
+        <li><b>✔️ Customized Solutions:</b> Tailored logistics services for client needs.</li>
+        <li><b>✔️ Cost-Effective:</b> Transparent pricing with minimal value for money.</li>
         <li><b>✔️ Customer Trust:</b> Long-term relationships built on reliability.</li>
       </ul>
     </section>
