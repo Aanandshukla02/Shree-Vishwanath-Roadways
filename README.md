@@ -1,7 +1,6 @@
 
-## 📄 `README.md`
 
-```markdown
+
 # Shree Vishwanath Roadways (SVR)
 
 🚛 **Trusted Transport Contractors & Fleet Owners**
@@ -112,14 +111,3 @@ npm run build
 
 © 2025 Shree Vishwanath Roadways. All Rights Reserved.
 
-```
-
----
-
-👉 Is README ko `README.md` file ke naam se apne **project root** (jahan `package.json` hai) me daal do.  
-Phir commit + push kar do, GitHub pe repo ke homepage pe ye README dikhne lagega. 🎉  
-
----
-
-Chaho to main tumhe ek **short GitHub profile style README** bhi bana kar de dun jo bilkul concise ho (sirf intro + run instructions)?
-```
