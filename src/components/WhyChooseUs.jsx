@@ -12,7 +12,7 @@ function WhyChooseUs() {
         <li><b>✔️ Modern Fleet:</b> Well-maintained vehicles ensuring safety and efficiency.</li>
         <li><b>✔️ On-Time Delivery:</b> Commitment to timely and reliable shipments.</li>
         <li><b>✔️ Customized Solutions:</b> Tailored logistics services for client needs.</li>
-        <li><b>✔️ Cost-Effective:</b> Transparent pricing with minimal value for money.</li>
+        <li><b>✔️ Cost-Effective:</b> Transparent pricing with minimum value for money for valuable customers.</li>
         <li><b>✔️ Customer Trust:</b> Long-term relationships built on reliability.</li>
       </ul>
     </section>
