@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import WhatsAppButton from "./components/WhatsAppButton";
 import Footer from "./components/Footer";
+import ContactPopup from "./components/ContactPopup";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <Testimonials />
       <Contact />
       <WhatsAppButton />
-      <Footer/>
+      <ContactPopup />
+      <Footer />
     </div>
   );
 }
