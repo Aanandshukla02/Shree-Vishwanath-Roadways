@@ -18,10 +18,30 @@ function Footer() {
 
         <div className="footer-contact">
           <h4>Contact Us</h4>
-          <p>📍 <a href="https://www.google.com/maps/place/GIDC+Vapi,+Gujarat/" target="_blank" rel="noopener noreferrer">Plot No. 136-9A, Near National Plywoods, II Phase GIDC, Vapi - 396195, Gujarat</a></p>
+          <p>
+            📍{" "}
+            <a
+              href="https://www.google.com/maps/place/GIDC+Vapi,+Gujarat/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Plot No. 136-9A, Near National Plywoods, II Phase GIDC, Vapi -
+              396195, Gujarat
+            </a>
+          </p>
           <p>📞 <a href="tel:+919033377799">+91 90333 77799</a></p>
-          <p>✉️ <a href="mailto:shreevishwanathroadways81@gmail.com">shreevishwanathroadways81@gmail.com</a></p>
-          <p>✉️ <a href="mailto:shreevishwanathroadways@gmail.com">shreevishwanathroadways@gmail.com</a></p>
+          <p>
+            ✉️{" "}
+            <a href="mailto:shreevishwanathroadways81@gmail.com">
+              shreevishwanathroadways81@gmail.com
+            </a>
+          </p>
+          <p>
+            ✉️{" "}
+            <a href="mailto:shreevishwanathroadways@gmail.com">
+              shreevishwanathroadways@gmail.com
+            </a>
+          </p>
         </div>
 
         <div className="footer-links">
@@ -31,20 +51,42 @@ function Footer() {
             <li><a href="#services">Our Services</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><span className="popup-link" onClick={() => setShowPopup("terms")}>Terms & Conditions</span></li>
-            <li><span className="popup-link" onClick={() => setShowPopup("privacy")}>Privacy Policy</span></li>
+            <li>
+              <span
+                className="popup-link"
+                onClick={() => setShowPopup("terms")}
+              >
+                Terms & Conditions
+              </span>
+            </li>
+            <li>
+              <span
+                className="popup-link"
+                onClick={() => setShowPopup("privacy")}
+              >
+                Privacy Policy
+              </span>
+            </li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Shree Vishwanath Roadways. All Rights Reserved.</p>
+        <p>
+          © {new Date().getFullYear()} Shree Vishwanath Roadways. All Rights
+          Reserved.
+        </p>
       </div>
 
       {showPopup && (
         <div className="popup-overlay" onClick={() => setShowPopup(null)}>
           <div className="popup-box" onClick={(e) => e.stopPropagation()}>
-            <button className="popup-close" onClick={() => setShowPopup(null)}>✖</button>
+            <button
+              className="popup-close"
+              onClick={() => setShowPopup(null)}
+            >
+              ✖
+            </button>
             {showPopup === "terms" && <Terms />}
             {showPopup === "privacy" && <Privacy />}
           </div>
