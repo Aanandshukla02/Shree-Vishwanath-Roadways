@@ -59,7 +59,7 @@ function Hero() {
           <span></span>
         </div>
 
-        {/* Navbar Links (Reordered) */}
+        {/* Navbar Links */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           {["home", "about", "services", "why", "gallery", "contact"].map((sec) => (
             <li key={sec}>
@@ -70,7 +70,7 @@ function Hero() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                {sec.charAt(0).toUpperCase() + sec.slice(1)}
+                {sec === "why" ? "Why Us" : sec.charAt(0).toUpperCase() + sec.slice(1)}
               </motion.a>
             </li>
           ))}
