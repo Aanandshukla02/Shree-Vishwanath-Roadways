@@ -13,7 +13,10 @@ function Hero() {
     const handleScroll = () => {
       const scrollPos = window.scrollY + 100;
       sections.forEach((sec) => {
-        if (scrollPos >= sec.offsetTop && scrollPos < sec.offsetTop + sec.offsetHeight) {
+        if (
+          scrollPos >= sec.offsetTop &&
+          scrollPos < sec.offsetTop + sec.offsetHeight
+        ) {
           setActiveSection(sec.id);
         }
       });
@@ -24,6 +27,14 @@ function Hero() {
 
   return (
     <section className="hero" id="home">
+      {/* ===== VIDEO BACKGROUND ===== */}
+      <div className="video-background">
+        <video autoPlay loop muted playsInline>
+          <source src="/hero-bg.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       {/* ===== PARTICLES BACKGROUND ===== */}
       <Particles
         className="particles"
@@ -33,7 +44,12 @@ function Hero() {
             number: { value: 50 },
             size: { value: 3 },
             move: { enable: true, speed: 1 },
-            links: { enable: true, distance: 120, color: "#f39c12", opacity: 0.3 },
+            links: {
+              enable: true,
+              distance: 120,
+              color: "#f39c12",
+              opacity: 0.3,
+            },
             color: { value: "#f39c12" },
           },
         }}
@@ -61,19 +77,23 @@ function Hero() {
 
         {/* Navbar Links */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-          {["home", "about", "services", "why", "gallery", "contact"].map((sec) => (
-            <li key={sec}>
-              <motion.a
-                href={`#${sec}`}
-                className={activeSection === sec ? "active-link" : ""}
-                onClick={() => setMenuOpen(false)}
-                whileHover={{ scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                {sec === "why" ? "Why Us" : sec.charAt(0).toUpperCase() + sec.slice(1)}
-              </motion.a>
-            </li>
-          ))}
+          {["home", "about", "services", "why", "gallery", "contact"].map(
+            (sec) => (
+              <li key={sec}>
+                <motion.a
+                  href={`#${sec}`}
+                  className={activeSection === sec ? "active-link" : ""}
+                  onClick={() => setMenuOpen(false)}
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
+                  {sec === "why"
+                    ? "Why Us"
+                    : sec.charAt(0).toUpperCase() + sec.slice(1)}
+                </motion.a>
+              </li>
+            )
+          )}
         </ul>
       </nav>
 
