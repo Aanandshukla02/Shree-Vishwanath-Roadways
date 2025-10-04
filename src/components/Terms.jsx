@@ -23,7 +23,7 @@ function Terms() {
       <p>
         Bookings are confirmed only upon full or partial payment as mutually agreed. Payments may be made 
         via bank transfer, UPI, or other agreed methods. The consignor shall be primarily liable for 
-        all transportation and incidental charges, payable at our Head Office in Chennai or any other agreed place. 
+        all transportation and incidental charges, payable at our Head Office in Vapi or any other agreed place. 
         Delayed payments may result in service delays or cancellations.
       </p>
 
